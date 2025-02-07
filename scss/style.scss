@@ -153,6 +153,28 @@ input:-webkit-autofill {
     accent-color: $color-website;
 }
 
+.error{
+    color: #dc2626;
+    font-size: 12px;
+    margin-top: 4px;
+    max-width: 200px;
+}
+
+.input-box.invalid .form-label{
+    color: $input-invalid ;
+}
+
+.input-box.invalid .input-field{
+    border: 1px solid $input-invalid ;
+}
+
+.input-box.valid .form-label{
+    color: $input-valid ;
+}
+
+.input-box.valid .input-field{
+    border: 1px solid $input-valid ;
+}
 
 @media screen and (max-width: 500px) {
     #form_container{
