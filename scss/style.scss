@@ -161,7 +161,7 @@ input:-webkit-autofill {
 }
 
 .input-box.invalid .form-label{
-    color: $input-invalid ;
+    color: $input-invalid;
 }
 
 .input-box.invalid .input-field{
@@ -175,6 +175,16 @@ input:-webkit-autofill {
 .input-box.valid .input-field{
     border: 1px solid $input-valid ;
 }
+
+.radio-container.invalid .form-label:first-child{
+    color: $input-invalid;
+}
+.radio-container.valid .form-label:first-child{
+    color: $input-valid;
+}
+
+
+
 
 @media screen and (max-width: 500px) {
     #form_container{
